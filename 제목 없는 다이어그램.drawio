@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="페이지-1" id="h1nh826gUi7m1epC8qE8">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kmfrvYMUH1FGOZp9h3H7-1" value="이용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kmfrvYMUH1FGOZp9h3H7-2" value="게시판 작성&lt;div style=&quot;font-size: 15px;&quot;&gt;1. 이용자는 게시판을 작성할 수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;2. 이용자는 게시판 목록을 조회할 수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;3. 이용자는 작성한 게시판에 대해 수정을 할 수 있으며 필요시 삭제가 가능하도록 한다.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="25" y="10" width="365" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
