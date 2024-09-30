@@ -4,11 +4,41 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kmfrvYMUH1FGOZp9h3H7-1" value="이용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="kmfrvYMUH1FGOZp9h3H7-1" value="이용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="40" y="260" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kmfrvYMUH1FGOZp9h3H7-2" value="게시판 작성&lt;div style=&quot;font-size: 15px;&quot;&gt;1. 이용자는 게시판을 작성할 수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;2. 이용자는 게시판 목록을 조회할 수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;3. 이용자는 작성한 게시판에 대해 수정을 할 수 있으며 필요시 삭제가 가능하도록 한다.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="kmfrvYMUH1FGOZp9h3H7-2" value="게시판 작성&lt;div style=&quot;font-size: 15px;&quot;&gt;1. 이용자는 게시판을 작성할 수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;2. 이용자는 게시판 목록을 조회할 수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;3. 이용자는 작성한 게시판에 대해 수정을 할 수 있으며 필요시 삭제가 가능하도록 한다.&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="25" y="10" width="365" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="380" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.053;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SVFqgRrYGzfDGAeIQ3-I-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="291.0839130434783" as="sourcePoint" />
+            <mxPoint x="140" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-3" value="게시글 작성" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.579;entryY=0.244;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SVFqgRrYGzfDGAeIQ3-I-3" target="SVFqgRrYGzfDGAeIQ3-I-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-5" value="게시글 수정 및 삭제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.158;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kmfrvYMUH1FGOZp9h3H7-1" target="SVFqgRrYGzfDGAeIQ3-I-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="350" as="sourcePoint" />
+            <mxPoint x="140" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVFqgRrYGzfDGAeIQ3-I-7" value="게시글 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="325" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
